@@ -9,22 +9,17 @@ This repository contains step-by-step, beginner-friendly labs and tutorials desi
 
 What You’ll Find Here
 Hands-on labs: Step-by-step exercises that cover key Entra ID and Azure concepts.
-
 Screenshots & visual guides: Clear instructions with visuals to help you follow along.
-
 Beginner-friendly instructions: Labs assume minimal prior experience, perfect for learners starting their journey in cloud identity and access management.
-
 Best practices: Guidance on lab setup, configuration, and testing in a safe environment.
 
 
 Example Lab Topics
 Creating and organizing users in Microsoft Entra ID
-
 Managing groups and roles
-
 Basic Azure AD settings and security features
-
 Assigning permissions without requiring paid licenses
+
 
 Lab 1 — Creating & Organizing Users in Microsoft Entra ID (No License Required)
 
@@ -36,16 +31,12 @@ Create cloud-only users and security groups in Microsoft Entra ID to simulate a 
 
 🛠️ Skills Demonstrated
 Azure Portal navigation
-
 Entra ID cloud-only user creation
-
 Security group management
-
 Basic cloud identity administration
 
+
 🔧 Step-by-Step Instructions
-
-
 Step 1 — Sign In to Microsoft Entra ID
 
 Go to: https://entra.microsoft.com
@@ -55,10 +46,6 @@ Sign in with your Microsoft account
 You will land on the Microsoft Entra admin center
 
 <img width="1517" height="887" alt="Screenshot 2025-11-29 185752" src="https://github.com/user-attachments/assets/9ac92328-a70e-40d6-98d5-e381fea82b81" />
-
-
-
-
 
 Entra Admin Home Dashboard showing:
 
@@ -75,9 +62,6 @@ Click Users
 Click All users
 
 
-
-
-“All users” page open, even if empty (show the table).
 
 Step 3 — Create a New User
 
@@ -98,12 +82,6 @@ Click Review + create
 Click Create
 
 <img width="1511" height="822" alt="Screenshot 2025-11-29 185841" src="https://github.com/user-attachments/assets/cc0a9b00-ed9a-42b2-95ec-feefb26d5060" />
-
-
-
-
-
-Screenshot the Create user form BEFORE clicking Review + create
 
 Step 4 — Confirm User Was Created
 
@@ -136,8 +114,6 @@ Display name: HR Admin
 
 UPN: hr.admin@yourdomain.onmicrosoft.com
 
-
-
 User 3
 
 Display name: IT Support
@@ -146,9 +122,6 @@ UPN: it.support@yourdomain.onmicrosoft.com
 
 
 <img width="1533" height="899" alt="Screenshot 2025-11-29 190536" src="https://github.com/user-attachments/assets/b7ca146a-bf91-4380-b6e2-cc4caa5249cd" />
-
-
-
 
 All Users page showing all 3 users
 
@@ -168,12 +141,7 @@ Choose Assigned as Membership type
 
 Click Create
 
-
 <img width="1533" height="859" alt="Screenshot 2025-11-29 190653" src="https://github.com/user-attachments/assets/5d790037-29cf-4e56-bf0d-42c02fd04c92" />
-
-
-
-Screenshot the New group form before clicking Create
 
 Step 7 — Add Members to Group
 
@@ -191,11 +159,7 @@ HR Admin (optional)
 
 Click Select
 
-
-
 <img width="1516" height="877" alt="Screenshot 2025-11-29 191014" src="https://github.com/user-attachments/assets/82608293-50aa-413d-91ec-cecb96bcfa1e" />
-
-
 
 Group page showing the list of added members
 
@@ -206,8 +170,6 @@ Navigate to:
 Groups → IT-Support-Team → Members
 
 Verify the correct users are added
-
-
 
 
 Entra Admin Center dashboard
@@ -225,7 +187,6 @@ Create Group form
 Group Members page showing added users
 
 <img width="1519" height="861" alt="Screenshot 2025-11-29 191131" src="https://github.com/user-attachments/assets/379a435e-da90-404f-a53a-cb25d0d20bbe" />
-
 
 📝 Concept Notes
 Cloud-Only Users: Users created directly in Entra ID, not synchronized from on-premises AD
@@ -250,6 +211,121 @@ Security group IT-Support-Team created
 Users added to the group correctly
 
 All screenshots captured for GitHub portfolio
+
+
+
+✅ 
+LAB 2 — Assign Administrative Roles in Microsoft Entra ID (No License Required)
+🎯 
+Objective:
+Assign least-privilege administrative roles to specific cloud users in Microsoft Entra ID and verify the assignments to demonstrate basic identity access management (IAM) capabilities.
+
+🛠️ 
+Step-by-Step Instructions
+Step 1 — Sign In to Microsoft Entra Admin Center
+Go to: https://entra.microsoft.com
+Sign in
+Click Microsoft Entra ID in the left menu
+
+<img width="1525" height="880" alt="11-30" src="https://github.com/user-attachments/assets/3dd3b0ef-1713-4d24-8cca-2d2bcfc7c16f" />
+
+
+Step 2 — Open Roles and Administrators
+In the left menu → click Roles and administrators
+View the list of built-in administrative roles
+
+<img width="1527" height="869" alt="Screenshot 2025-11-30 141706" src="https://github.com/user-attachments/assets/c06c00d4-1ba1-499a-8545-76e48bf2bb8a" />
+
+
+Step 3 — Open Password Administrator Role
+Search or scroll to Password Administrator
+Click it
+
+
+<img width="1528" height="879" alt="Screenshot 2025-11-30 142648" src="https://github.com/user-attachments/assets/76df2edd-2999-465a-ae93-e687f39c460b" />
+
+
+Step 4 — Assign the Role to HR Admin
+Inside the role → click Add assignments
+Search for → HR Admin
+Select the user → click Add
+
+<img width="1529" height="863" alt="Screenshot 2025-11-30 142735" src="https://github.com/user-attachments/assets/e97914eb-5f89-460e-8cce-b0161cb1a1aa" />
+
+
+
+
+Step 5 — Confirm HR Admin Has the Role
+Click the Assignments tab
+HR Admin should appear
+
+
+<img width="1520" height="872" alt="Screenshot 2025-11-30 142807" src="https://github.com/user-attachments/assets/95f91963-b579-4ec7-ac6c-84d89155f819" />
+
+
+
+Step 6 — Assign Helpdesk Administrator to IT Support
+Go back to Roles and administrators
+Click Helpdesk Administrator
+Click Add assignments
+Select IT Support
+Click Add
+
+<img width="1519" height="868" alt="Screenshot 2025-11-30 142947" src="https://github.com/user-attachments/assets/b43a4127-c91a-4e51-a7c2-824abc7898ee" />
+
+
+Step 7 — Verify Assigned Roles on Each User
+Go to: Users → All Users
+For HR Admin:
+Click HR Admin
+Click Assigned roles
+Should show → Password Administrator
+For IT Support:
+Click IT Support
+Click Assigned roles
+Should show → Helpdesk Administrator
+
+<img width="1533" height="869" alt="Screenshot 2025-11-30 143048" src="https://github.com/user-attachments/assets/1aea1ccb-7b95-47cc-aa11-4670a159078f" />
+
+<img width="1533" height="871" alt="Screenshot 2025-11-30 143117" src="https://github.com/user-attachments/assets/7f65ca3c-df51-4371-8d25-8cece6e1c06c" />
+
+📘 
+Concept Notes (Important)
+🔹 Role-Based Access Control (RBAC)
+Allows organizations to assign specific permissions to users based on job needs.
+🔹 Why Not Use Global Administrator?
+It’s extremely powerful and risky. Cyber attackers target this role first.
+🔹 Why “Least Privilege” Matters
+Only give the permissions needed to complete a job.
+
+This limits:
+Accidental changes
+Unauthorized access
+Attack surface
+Tenant compromise risk
+
+🔹 Real-World Example
+Helpdesk staff shouldn’t be able to create new admins.
+HR should reset passwords but not manage apps or devices.
+
+✔️ 
+Validation Checklist (Must Complete All Items)
+
+🔵 Portal Screenshots
+Entra Overview screenshot
+Roles & Administrators list
+
+🟣 Role Screenshots
+Password Administrator overview
+HR Admin added to Password Administrator
+Helpdesk Administrator overview
+IT Support added to Helpdesk Administrator
+
+🟢 User Verification Screenshots
+HR Admin → Assigned roles shows Password Administrator
+IT Support → Assigned roles shows Helpdesk Administrator
+
+
 
 
 
