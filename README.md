@@ -54,8 +54,9 @@ Sign in with your Microsoft account
 
 You will land on the Microsoft Entra admin center
 
+<img width="1517" height="887" alt="Screenshot 2025-11-29 185752" src="https://github.com/user-attachments/assets/9ac92328-a70e-40d6-98d5-e381fea82b81" />
 
-<img width="1517" height="887" alt="Screenshot 2025-11-29 185752" src="https://github.com/user-attachments/assets/354be15d-240f-401d-87fa-f58c5244409d" />
+
 
 
 
@@ -73,8 +74,6 @@ Click Users
 
 Click All users
 
-
-<img width="1511" height="822" alt="Screenshot 2025-11-29 185841" src="https://github.com/user-attachments/assets/dbd27554-9c59-4c6c-ae65-d4f747932842" />
 
 
 
@@ -98,8 +97,10 @@ Click Review + create
 
 Click Create
 
+<img width="1511" height="822" alt="Screenshot 2025-11-29 185841" src="https://github.com/user-attachments/assets/cc0a9b00-ed9a-42b2-95ec-feefb26d5060" />
 
-<img width="1044" height="401" alt="Screenshot 2025-11-29 185932" src="https://github.com/user-attachments/assets/fa15b458-a22e-4951-862f-fe976c317392" />
+
+
 
 
 Screenshot the Create user form BEFORE clicking Review + create
@@ -117,8 +118,8 @@ User principal name
 Object ID
 
 
+<img width="1044" height="401" alt="Screenshot 2025-11-29 185932" src="https://github.com/user-attachments/assets/fd2be4ed-6b56-4713-842f-ca7f5a31457e" />
 
-<img width="1533" height="899" alt="Screenshot 2025-11-29 190536" src="https://github.com/user-attachments/assets/7f22b606-2344-4d5a-b466-3ba4d60b3ff7" />
 
 
 User profile page with all fields visible
@@ -144,8 +145,9 @@ Display name: IT Support
 UPN: it.support@yourdomain.onmicrosoft.com
 
 
+<img width="1533" height="899" alt="Screenshot 2025-11-29 190536" src="https://github.com/user-attachments/assets/b7ca146a-bf91-4380-b6e2-cc4caa5249cd" />
 
-<img width="1533" height="859" alt="Screenshot 2025-11-29 190653" src="https://github.com/user-attachments/assets/5506dcba-c8ee-4dbb-92c9-abc7ee358f1d" />
+
 
 
 All Users page showing all 3 users
@@ -167,8 +169,8 @@ Choose Assigned as Membership type
 Click Create
 
 
+<img width="1533" height="859" alt="Screenshot 2025-11-29 190653" src="https://github.com/user-attachments/assets/5d790037-29cf-4e56-bf0d-42c02fd04c92" />
 
-<img width="1516" height="877" alt="Screenshot 2025-11-29 191014" src="https://github.com/user-attachments/assets/ff961d8f-b615-447e-a7ad-0be19050031c" />
 
 
 Screenshot the New group form before clicking Create
@@ -191,7 +193,8 @@ Click Select
 
 
 
-<img width="1519" height="861" alt="Screenshot 2025-11-29 191131" src="https://github.com/user-attachments/assets/8546317d-b4e4-4790-9fa6-36d82d592308" />
+<img width="1516" height="877" alt="Screenshot 2025-11-29 191014" src="https://github.com/user-attachments/assets/82608293-50aa-413d-91ec-cecb96bcfa1e" />
+
 
 
 Group page showing the list of added members
@@ -220,6 +223,9 @@ All Users page (after all 3 users created)
 Create Group form
 
 Group Members page showing added users
+
+<img width="1519" height="861" alt="Screenshot 2025-11-29 191131" src="https://github.com/user-attachments/assets/379a435e-da90-404f-a53a-cb25d0d20bbe" />
+
 
 📝 Concept Notes
 Cloud-Only Users: Users created directly in Entra ID, not synchronized from on-premises AD
