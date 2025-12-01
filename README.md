@@ -327,5 +327,155 @@ IT Support → Assigned roles shows Helpdesk Administrator
 
 
 
+LAB 3 — Manage Security Groups & Add New Groups in Entra ID
+
+
+🎯 
+Objective
+In this lab, you will:
+Review and document an existing group (IT-Support-Team)
+Create an additional new Security Group
+Add users to both groups
+Capture proper screenshots for your GitHub portfolio
+(No licensing required.)
+
+🛠️ 
+Step-by-Step Lab Instructions
+STEP 1 — Open Groups in Entra ID
+Sign in to the Azure Portal
+Search Microsoft Entra ID
+Click Groups
+
+
+All Groups page showing your group list including IT-Support-Team
+
+STEP 2 — Document Your Existing Group (IT-Support-Team)
+Click your IT-Support-Team group and capture:
+A. Overview Tab
+Shows: Group name, Group type, Object ID, Description
+
+<img width="1526" height="862" alt="Screenshot 2025-11-30 150435" src="https://github.com/user-attachments/assets/f59e71e3-7346-4ba3-bc0d-dfc0096d34d9" />
+
+
+Group → Overview tab
+B. Members Tab
+Shows who is in the group
+Group → Members tab (even if empty)
+C. Owners Tab
+Shows if the group has an owner
+
+<img width="1510" height="863" alt="Screenshot 2025-11-30 150652" src="https://github.com/user-attachments/assets/13c34d14-b7bf-4119-94de-7254641d2f40" />
+
+Group → Owners tab
+
+STEP 3 — Create a New Security Group
+Group Name: HR-Restricted
+Group Type: Security
+Description: Restricted access group for HR data
+Membership type: Assigned
+
+Steps:
+Go back to Groups
+Click + New Group
+Configure fields:
+Group type: Security
+Group name: HR-Restricted
+Membership type: Assigned
+Description: Restricted access group
+Click Create
+
+<img width="1529" height="863" alt="Screenshot 2025-11-30 150925" src="https://github.com/user-attachments/assets/f1bb386b-3695-476a-945b-8530e00a1c93" />
+
+
+STEP 4 — Add Members to Both Groups
+A. Add Users to IT-Support-Team
+Open IT-Support-Team
+Go to Members
+Click + Add members
+Add 1–3 users you created in Lab 1
+Click Select
+
+<img width="1517" height="857" alt="Screenshot 2025-11-30 151145" src="https://github.com/user-attachments/assets/dd6c73a0-c114-4725-a30e-9683bb87f9fd" />
+
+
+“Members” page showing the added users
+B. Add Members to HR-Restricted
+Open HR-Restricted group
+Go to Members
+Click + Add Members
+Select different users OR the same ones
+Click Select
+
+<img width="1518" height="857" alt="Screenshot 2025-11-30 204257" src="https://github.com/user-attachments/assets/6351386b-a00e-4d9f-ac14-b466365ab6c4" />
+
+
+HR-Restricted → Members page
+STEP 5 — Capture Final Documentation for Both Groups
+For each group, screenshot:
+Overview tab
+Members tab
+Owners tab (even if empty)
+
+
+
+IT-Support-Team:
+Groups list showing the group
+Overview
+Members
+Owners
+<img width="1525" height="859" alt="Screenshot 2025-11-30 151343" src="https://github.com/user-attachments/assets/54298c95-8ebc-4454-ad8d-53932cdf5b19" />
+
+<img width="1524" height="860" alt="Screenshot 2025-11-30 151402" src="https://github.com/user-attachments/assets/666c4cee-c616-4456-8d20-37c9d7efe779" />
+
+<img width="1314" height="738" alt="Screenshot 2025-11-30 151444" src="https://github.com/user-attachments/assets/c48dabc1-e9c1-411e-8dfa-a3f10bd453dc" />
+
+
+HR-Restricted:
+New group creation screen
+Overview
+Members
+Owners
+<img width="1526" height="923" alt="Screenshot 2025-11-30 151516" src="https://github.com/user-attachments/assets/35f80735-145d-4bf3-b656-61b7dd3e2a25" />
+
+<img width="1526" height="868" alt="Screenshot 2025-11-30 151531" src="https://github.com/user-attachments/assets/17428128-f0c9-4dd0-9140-0ff1955c3620" />
+
+<img width="1521" height="865" alt="Screenshot 2025-11-30 151547" src="https://github.com/user-attachments/assets/f6ecabf6-3226-4fae-b46c-8d4ba11a577f" />
+
+📘 
+Concept Notes (Place before checklist)
+
+
+🔹 What Are Security Groups?
+Security Groups manage user access across Microsoft 365 and Azure resources. Examples:
+Assign Teams permissions
+Grant access to SharePoint sites
+Apply Conditional Access policies
+Add users to app roles
+
+🔹 Why Use Assigned Groups?
+Assigned groups are manually controlled, easy to manage, and require no license.
+
+🔹 Why Create Multiple Groups?
+Good identity management separates users by roles:
+IT group → technical access
+HR group → sensitive data access
+
+This demonstrates least privilege and role-based access control (RBAC)
+
+✔️ 
+Validation Checklist
+You should have:
+Existing group IT-Support-Team fully documented
+New group HR-Restricted created
+Both groups have at least 1 member
+
+Screenshots of:
+Groups list
+Overview pages
+Members pages
+Owners pages
+Clear naming + role separation explained
+
+
 
 
