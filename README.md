@@ -327,6 +327,8 @@ IT Support → Assigned roles shows Helpdesk Administrator
 
 
 
+
+
 LAB 3 — Manage Security Groups & Add New Groups in Entra ID
 
 
